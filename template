@@ -1,6 +1,6 @@
 #!/bin/sh
 ### BEGIN INIT INFO
-# Provides: NQA_STARTUP_DEVELOPMENT
+# Provides: STARTUP_DEVELOPMENT
 # Required-Start:    $remote_fs $syslog
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
@@ -9,9 +9,9 @@
 # Description:       Enable service provided by daemon.
 ### END INIT INFO
 
-dir="/home/administrator/projects/Network-Quality-Automation"
-user="administrator"
-cmd="rails s"
+dir="Project+_path"
+user="user"
+cmd="command"
 
 name=`basename $0` # basename means filename
 pid_dir="/var/run/nqa"
